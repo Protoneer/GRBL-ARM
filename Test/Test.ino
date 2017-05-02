@@ -1,7 +1,7 @@
 
 
 void setup() {
-  SerialUSB.begin(9600);
+  SerialUSB.begin(115200);
   SerialUSB.println("Starting...");
   
   pinMode(2, OUTPUT); // Step X
